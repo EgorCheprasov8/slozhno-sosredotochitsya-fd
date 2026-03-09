@@ -286,7 +286,7 @@
 
  @media (width >=768px) {
   .header {
-    margin-block-end: 40px; 
+    margin-block-end: 40px;
     --min-height: 1024px;
   }
 
