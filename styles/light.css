@@ -5,8 +5,43 @@
 */
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --background-image: url(../images/cover-image-light.png);
+  --title-color: var(--title-pink);
+  --question-color: var(--intense-black);
+  --title-text-color: var(--intense-black);
+  --button-color: var(--intense-black);
+  --border-color-opacity: var(--dim-black);
+  --title-bg-color: var(--basic-pink);
+  --answer-text-color: var(--intense-black);
+  --deco-color: var(--intense-black);
+  --fon-stile: var(--intense-black);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-image: url(../images/cover-image-light.png);
+    --title-color: var(--title-pink);
+    --question-color: var(--intense-black);
+    --title-text-color: var(--intense-black);
+    --button-color: var(--intense-black);
+    --border-color-opacity: var(--dim-black);
+    --title-bg-color: var(--basic-pink);
+    --answer-text-color: var(--intense-black);
+    --fon-stile: var(--intense-black);
+    --deco-color: var(--intense-black);}
+  .rec::before {
+    display: none;
+  }
+  
+  .rec::after {
+    display: none;
+  }
+}
+
+.theme-light .rec::before {
+  display: none;
+}
+
+.theme-light .rec::after {
+  display: none;
 }
