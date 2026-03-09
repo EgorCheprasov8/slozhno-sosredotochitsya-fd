@@ -14,7 +14,7 @@
   --title-bg-color: var(--real-red);
   --answer-text-color: var(--lavender);
   --deco-color: var(--real-red);
-  --fon-stile: var(--practicaly-black)
+  --fon-stile: var(--practicaly-black);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,20 +28,22 @@
     --title-bg-color: var(--real-red);
     --answer-text-color: var(--lavender);
     --fon-stile: var(--practicaly-black);
-    --deco-color: var(--real-red);}
-    .rec::before {
-      display: inline-block;
-    }
+    --deco-color: var(--real-red);
+  }
+
+  .rec::before {
+    display: inline-block;
+  }
     
-    .rec::after {
-      display: inline-block;
-    }
+  .rec::after {
+    display: inline-block;
+  }
 }
 
 .theme-dark .rec::before {
-display: inline-block;
+  display: inline-block;
 }
 
 .theme-dark .rec::after {
-display: inline-block;
+  display: inline-block;
 }

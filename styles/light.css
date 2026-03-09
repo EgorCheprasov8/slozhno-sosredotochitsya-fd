@@ -28,7 +28,9 @@
     --title-bg-color: var(--basic-pink);
     --answer-text-color: var(--intense-black);
     --fon-stile: var(--intense-black);
-    --deco-color: var(--intense-black);}
+    --deco-color: var(--intense-black);
+  }
+  
   .rec::before {
     display: none;
   }
