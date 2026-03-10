@@ -11,7 +11,6 @@
   --project-font-family: "IBM Plex Mono", "Arial", sans-serif;
   --regular-font-size: 18px;
   --regular-line-height: 100%;
-  --title-text-color: #000028;
   --background-image: url(../images/cover-image-dark.png);
   --decoration-gap: clamp(10px , 2.65vw , 20px);
   --button-color: var(--real-red);
@@ -26,6 +25,7 @@
   --corner-thickness: 1px;
   --rec-color: var(--real-red);
   --rec-pos: 30px;
+  --rec_x_pos: 35px;
   --deco-color: var(--real-red);
-  --fon-stile: var(--practicaly-black);
+  --font-stile: var(--practicaly-black);
 }
