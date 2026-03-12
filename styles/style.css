@@ -391,9 +391,10 @@
 
   .header__theme-menu {
     display: flex;
-    justify-self: center;
     flex-direction: column;
-    align-self: start;
+    align-self: flex-start;
+    margin: 0 auto;
+    
   }
 
   .header__theme-menu-list {
@@ -406,12 +407,8 @@
   }
 
   .huge_title {
-     margin-left: 0;
+    margin-left: 0;
    }
- 
-  .rec {
-    rec-pos: 40px;
-  }
 
   .header_text {
     margin-top: 20px;
@@ -440,8 +437,8 @@
   }
 
   .section_why {
-      margin-top: 40px;
-      gap: 10px;
+    margin-top: 40px;
+    gap: 10px;
   }
 
   .section_why .question {
